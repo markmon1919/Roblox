@@ -20,9 +20,9 @@ local a, b = {
                 "ModuleScript",
                 {"Themes"},
                 {
-                    {51, "ModuleScript", {"Default"}},
                     {50, "ModuleScript", {"Dark"}},
                     {52, "ModuleScript", {"Light"}},
+                    {51, "ModuleScript", {"Darker"}},
                     {53, "ModuleScript", {"Rose"}},
                     {49, "ModuleScript", {"Aqua"}},
                     {48, "ModuleScript", {"Amethyst"}}
@@ -129,7 +129,7 @@ local aa = {
             Window = nil,
             WindowFrame = nil,
             Unloaded = false,
-            Theme = "Default",
+            Theme = "Dark",
             DialogOpen = false,
             UseAcrylic = false,
             Acrylic = false,
@@ -5064,7 +5064,7 @@ local aa = {
     end,
     [47] = function()
         local aa, ab, ac, ad, ae = b(47)
-        local af = {Names = {"Default","Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose"}}
+        local af = {Names = {"Dark", "Darker", "Light", "Aqua", "Amethyst", "Rose"}}
         for ag, ah in next, ab:GetChildren() do
             local aj = ac(ah)
             af[aj.Name] = aj
@@ -5111,46 +5111,6 @@ local aa = {
             HoverChange = 0.04
         }
     end,
-    [51] = function()
-        local aa, ab, ac, ad, ae = b(51)
-        return {
-            Name = "Default",
-            Accent = Color3.fromRGB(0, 209, 146),
-            AcrylicMain = Color3.fromRGB(20, 20, 20),
-            AcrylicBorder = Color3.fromRGB(27, 161, 103),
-            AcrylicGradient = ColorSequence.new(Color3.fromRGB(0, 209, 146), Color3.fromRGB(35, 140, 98)),
-            AcrylicNoise = 0.92,
-            TitleBarLine = Color3.fromRGB(44, 184, 132),
-            Tab = Color3.fromRGB(158, 255, 216),
-            Element = Color3.fromRGB(0, 227, 159),
-            ElementBorder = Color3.fromRGB(54, 133, 109),
-            InElementBorder = Color3.fromRGB(0, 125, 79),
-            ElementTransparency = 0.84,
-            ToggleSlider = Color3.fromRGB(0, 227, 159),
-            ToggleToggled = Color3.fromRGB(0, 0, 0),
-            SliderRail = Color3.fromRGB(0, 227, 159),
-            DropdownFrame = Color3.fromRGB(117, 255, 200),
-            DropdownHolder = Color3.fromRGB(35, 140, 98),
-            DropdownBorder = Color3.fromRGB(42, 94, 78),
-            DropdownOption = Color3.fromRGB(0, 227, 159),
-            Keybind = Color3.fromRGB(0, 227, 159),
-            Input = Color3.fromRGB(0, 227, 159),
-            InputFocused = Color3.fromRGB(10, 30, 22),
-            InputIndicator = Color3.fromRGB(141, 201, 179),
-            Dialog = Color3.fromRGB(35, 140, 98),
-            DialogHolder = Color3.fromRGB(30, 60, 45),
-            DialogHolderLine = Color3.fromRGB(16, 74, 57),
-            DialogButton = Color3.fromRGB(35, 140, 98),
-            DialogButtonBorder = Color3.fromRGB(0, 125, 79),
-            DialogBorder = Color3.fromRGB(27, 161, 103),
-            DialogInput = Color3.fromRGB(43, 130, 105),
-            DialogInputLine = Color3.fromRGB(141, 201, 179),
-            Text = Color3.fromRGB(255, 255, 255),
-            SubText = Color3.fromRGB(199, 255, 239),
-            Hover = Color3.fromRGB(0, 227, 159),
-            HoverChange = 0.04
-        }
-    end,
     [49] = function()
         local aa, ab, ac, ad, ae = b(49)
         return {
@@ -5193,6 +5153,46 @@ local aa = {
     end,
     [50] = function()
         local aa, ab, ac, ad, ae = b(50)
+        return {
+            Name = "Dark",
+            Accent = Color3.fromRGB(0, 209, 146),
+            AcrylicMain = Color3.fromRGB(20, 20, 20),
+            AcrylicBorder = Color3.fromRGB(27, 161, 103),
+            AcrylicGradient = ColorSequence.new(Color3.fromRGB(0, 209, 146), Color3.fromRGB(35, 140, 98)),
+            AcrylicNoise = 0.92,
+            TitleBarLine = Color3.fromRGB(44, 184, 132),
+            Tab = Color3.fromRGB(158, 255, 216),
+            Element = Color3.fromRGB(0, 227, 159),
+            ElementBorder = Color3.fromRGB(54, 133, 109),
+            InElementBorder = Color3.fromRGB(0, 125, 79),
+            ElementTransparency = 0.84,
+            ToggleSlider = Color3.fromRGB(0, 227, 159),
+            ToggleToggled = Color3.fromRGB(0, 0, 0),
+            SliderRail = Color3.fromRGB(0, 227, 159),
+            DropdownFrame = Color3.fromRGB(117, 255, 200),
+            DropdownHolder = Color3.fromRGB(35, 140, 98),
+            DropdownBorder = Color3.fromRGB(42, 94, 78),
+            DropdownOption = Color3.fromRGB(0, 227, 159),
+            Keybind = Color3.fromRGB(0, 227, 159),
+            Input = Color3.fromRGB(0, 227, 159),
+            InputFocused = Color3.fromRGB(10, 30, 22),
+            InputIndicator = Color3.fromRGB(141, 201, 179),
+            Dialog = Color3.fromRGB(35, 140, 98),
+            DialogHolder = Color3.fromRGB(30, 60, 45),
+            DialogHolderLine = Color3.fromRGB(16, 74, 57),
+            DialogButton = Color3.fromRGB(35, 140, 98),
+            DialogButtonBorder = Color3.fromRGB(0, 125, 79),
+            DialogBorder = Color3.fromRGB(27, 161, 103),
+            DialogInput = Color3.fromRGB(43, 130, 105),
+            DialogInputLine = Color3.fromRGB(141, 201, 179),
+            Text = Color3.fromRGB(255, 255, 255),
+            SubText = Color3.fromRGB(199, 255, 239),
+            Hover = Color3.fromRGB(0, 227, 159),
+            HoverChange = 0.04
+        }
+    end,
+    [51] = function()
+        local aa, ab, ac, ad, ae = b(51)
         return {
             Name = "Darker",
             Accent = Color3.fromRGB(72, 138, 182),

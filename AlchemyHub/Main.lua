@@ -102,10 +102,10 @@ pcall(function()
     Service.TextChannels.RBXSystem:DisplaySystemMessage("<font color='#00ff80'>Alchemy Hub On Top #1</font>")
     Service.TextChannels.RBXSystem:DisplaySystemMessage("<font color='#9aaaff'>Join our discord at discord.gg/alchemyhub</font>")
 end)
-local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/markmon1919/roblox_scripts/refs/heads/master/__Script/__UI.lua"))()
+local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/markmon1919/roblox_scripts/refs/heads/master/__Script/__UI1.lua"))()
 local Notification = UILibrary:Notification();
 Notification.new({
-	Title = "Hoy Arison! Wanna Join Discord Server?",
+	Title = "Huy Arison! Wanna Join Discord Server?",
 	Description = "We have big community and news on this server\nWe also have key giveaway too, Happy New Year 2025!!",
 	Dialog = true,
 	Buttons = {

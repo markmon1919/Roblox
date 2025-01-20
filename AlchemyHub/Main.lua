@@ -13,7 +13,7 @@ Copyright © 2025 Alchemy Hub - Script. All Rights Reserved.
 __f = {
     ['__game'] = function()
         local p = game.PlaceId
-        return "v3/loaders/b483c866b947fd0b7a2558cf67ae1417.lua"
+        return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua"
         -- if p == 2753915549 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Blox Fruits
         -- elseif p == 4442272183 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Blox Fruits
         -- elseif p == 7449423635 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Blox Fruits

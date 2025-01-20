@@ -201,7 +201,7 @@ local loadWarn = function(__text,__exec)
     wait(); MainFrame:TweenSize(UDim2.new(0, 406, 0, 189), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, 0.3, true)
 end
 _G.run_time = true
-pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/markmon1919/roblox_scripts/refs/heads/master/__Script/__Finded.lua"))() end)
+-- pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/markmon1919/roblox_scripts/refs/heads/master/__Script/__Finded.lua"))() end)
 pcall(function()
     Service.TextChannels.RBXSystem:DisplaySystemMessage("[ Alchemy Script ] <font color='#ffff00'>Connect to Luarmor</font>")
 end)
@@ -210,5 +210,4 @@ end)
 if _G.Aimbot then __f['__load']("https://api.luarmor.net/files/v3/loaders/99d54b8a79622e362bca83739647c514.lua")
 elseif _G.FruitFinder then game.Players.LocalPlayer:Kick("Coming Soon!")
 elseif _G.AutoBounty then game.Players.LocalPlayer:Kick("Coming Soon!")
--- else getgenv().loader = __f['__game'](); __f['__load']("https://api.luarmor.net/files/v3/loaders/6df239f7eb1c8bb019d8c87e92784540.lua") end;
-else getgenv().loader = __f['__game'](); __f['__load']("https://api.luarmor.net/files/v3/loaders/b483c866b947fd0b7a2558cf67ae1417.lua") end;
+else getgenv().loader = __f['__game'](); __f['__load']("https://api.luarmor.net/files/v3/loaders/6df239f7eb1c8bb019d8c87e92784540.lua") end;

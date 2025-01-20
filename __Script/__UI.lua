@@ -17,7 +17,7 @@ local a, b = {
             {28, "ModuleScript", {"Icons"}},
             {
                 47,
-                "ModuleScripts",
+                "ModuleScript",
                 {"Themes"},
                 {
                     {50, "ModuleScript", {"Dark"}},

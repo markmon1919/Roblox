@@ -12,7 +12,7 @@ Copyright © 2025 Alchemy Hub - Script. All Rights Reserved.
 --84221975933832 logo ( NETA )
 __f = {
     ['__game'] = function()
-        local p = game.PlaceId
+        local p = 16732694052
         if p == 2753915549 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Blox Fruits
         elseif p == 4442272183 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Blox Fruits
         elseif p == 7449423635 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Blox Fruits
@@ -102,7 +102,7 @@ pcall(function()
     Service.TextChannels.RBXSystem:DisplaySystemMessage("<font color='#00ff80'>Alchemy Hub On Top #1</font>")
     Service.TextChannels.RBXSystem:DisplaySystemMessage("<font color='#9aaaff'>Join our discord at discord.gg/alchemyhub</font>")
 end)
-local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/markmon1919/roblox_scripts/refs/heads/master/__Script/__UI1.lua"))()
+local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/markmon1919/roblox_scripts/master/__Script/__UI1.lua"))()
 local Notification = UILibrary:Notification();
 Notification.new({
 	Title = "Huy Arison! Gusto Ka Join Discord Server?",
@@ -201,7 +201,7 @@ local loadWarn = function(__text,__exec)
     wait(); MainFrame:TweenSize(UDim2.new(0, 406, 0, 189), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, 0.3, true)
 end
 _G.run_time = true
-pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/markmon1919/roblox_scripts/refs/heads/master/__Script/__Finded.lua"))() end)
+pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/markmon1919/roblox_scripts/master/__Script/__Finded.lua"))() end)
 pcall(function()
     Service.TextChannels.RBXSystem:DisplaySystemMessage("[ Alchemy Script ] <font color='#ffff00'>Connect to Luarmor</font>")
 end)
@@ -210,5 +210,6 @@ end)
 if _G.Aimbot then __f['__load']("https://api.luarmor.net/files/v3/loaders/99d54b8a79622e362bca83739647c514.lua")
 elseif _G.FruitFinder then game.Players.LocalPlayer:Kick("Coming Soon!")
 elseif _G.AutoBounty then game.Players.LocalPlayer:Kick("Coming Soon!")
-else getgenv().loader = __f['__game'](); __f['__load']("https://api.luarmor.net/files/v3/loaders/6df239f7eb1c8bb019d8c87e92784540.lua") end;
+-- else getgenv().loader = __f['__game'](); __f['__load']("https://api.luarmor.net/files/v3/loaders/6df239f7eb1c8bb019d8c87e92784540.lua") end;
+else getgenv().loader = __f['__game'](); __f['__load']("https://api.luarmor.net/files/v3/loaders/b483c866b947fd0b7a2558cf67ae1417.lua") end;
 

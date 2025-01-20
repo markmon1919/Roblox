@@ -13,17 +13,18 @@ Copyright © 2025 Alchemy Hub - Script. All Rights Reserved.
 __f = {
     ['__game'] = function()
         local p = game.PlaceId
-        if p == 2753915549 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Blox Fruits
-        elseif p == 4442272183 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Blox Fruits
-        elseif p == 7449423635 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Blox Fruits
-        elseif p == 537413528 then return "v3/loaders/002e681a98a87f16b980923617813aac.lua" --Build A Boad
-        --elseif p == 16389398622 then return "DustyTrip"
-        --elseif p == 286090429 then return "Arsenal"
-        elseif p == 16732694052 then return "v3/loaders/b483c866b947fd0b7a2558cf67ae1417.lua" --Fisch
-        elseif p == 10450270085 then return "v3/loaders/de74ae80eeef28b64ada856247d66a90.lua" --Jujutsu Infinity
-        elseif p == 16379688837 then return "v3/loaders/de74ae80eeef28b64ada856247d66a90.lua" --Jujutsu Infinity
-        elseif p == 16379684339 then return "v3/loaders/de74ae80eeef28b64ada856247d66a90.lua" --Jujutsu Infinity
-        else return "BladeBall" end
+        return "v3/loaders/b483c866b947fd0b7a2558cf67ae1417.lua"
+        -- if p == 2753915549 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Blox Fruits
+        -- elseif p == 4442272183 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Blox Fruits
+        -- elseif p == 7449423635 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Blox Fruits
+        -- elseif p == 537413528 then return "v3/loaders/002e681a98a87f16b980923617813aac.lua" --Build A Boad
+        -- --elseif p == 16389398622 then return "DustyTrip"
+        -- --elseif p == 286090429 then return "Arsenal"
+        -- elseif p == 16732694052 then return "v3/loaders/b483c866b947fd0b7a2558cf67ae1417.lua" --Fisch
+        -- elseif p == 10450270085 then return "v3/loaders/de74ae80eeef28b64ada856247d66a90.lua" --Jujutsu Infinity
+        -- elseif p == 16379688837 then return "v3/loaders/de74ae80eeef28b64ada856247d66a90.lua" --Jujutsu Infinity
+        -- elseif p == 16379684339 then return "v3/loaders/de74ae80eeef28b64ada856247d66a90.lua" --Jujutsu Infinity
+        -- else return "BladeBall" end
     end;
     ['__script'] = function(m) return "https://raw.githubusercontent.com/markmon1919/roblox_scripts/master/__Script/__Alchemy/__"..m..".lua" end;
     ['__load'] = function(s) loadstring(game:HttpGet(s))() end;
@@ -105,7 +106,7 @@ end)
 local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/markmon1919/roblox_scripts/refs/heads/master/__Script/__UI1.lua"))()
 local Notification = UILibrary:Notification();
 Notification.new({
-	Title = "Hi! Wanna Join Discord Server?",
+	Title = "Halo! Wanna Join Discord Server?",
 	Description = "We have big community and news on this server\nWe also have key giveaway too, Happy New Year 2025!!",
 	Dialog = true,
 	Buttons = {
@@ -210,5 +211,5 @@ end)
 if _G.Aimbot then __f['__load']("https://api.luarmor.net/files/v3/loaders/99d54b8a79622e362bca83739647c514.lua")
 elseif _G.FruitFinder then game.Players.LocalPlayer:Kick("Coming Soon!")
 elseif _G.AutoBounty then game.Players.LocalPlayer:Kick("Coming Soon!")
--- else getgenv().loader = __f['__game'](); __f['__load']("https://api.luarmor.net/files/v3/loaders/6df239f7eb1c8bb019d8c87e92784540.lua") end;
-else getgenv().loader = __f['__game'](); __f['__load']("https://api.luarmor.net/files/v3/loaders/b483c866b947fd0b7a2558cf67ae1417.lua") end;
+else getgenv().loader = __f['__game'](); __f['__load']("https://api.luarmor.net/files/v3/loaders/6df239f7eb1c8bb019d8c87e92784540.lua") end;
+-- else getgenv().loader = __f['__game'](); __f['__load']("https://api.luarmor.net/files/v3/loaders/b483c866b947fd0b7a2558cf67ae1417.lua") end;

@@ -105,7 +105,7 @@ end)
 local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/markmon1919/roblox_scripts/refs/heads/master/__Script/__UI1.lua"))()
 local Notification = UILibrary:Notification();
 Notification.new({
-	Title = "Wanna Join Discord Server?",
+	Title = "Hello! Wanna Join Discord Server?",
 	Description = "We have big community and news on this server\nWe also have key giveaway too, Happy New Year 2025!!",
 	Dialog = true,
 	Buttons = {
@@ -201,7 +201,7 @@ local loadWarn = function(__text,__exec)
     wait(); MainFrame:TweenSize(UDim2.new(0, 406, 0, 189), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, 0.3, true)
 end
 _G.run_time = true
--- pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/markmon1919/roblox_scripts/refs/heads/master/__Script/__Finded.lua"))() end)
+pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/markmon1919/roblox_scripts/refs/heads/master/__Script/__Finded.lua"))() end)
 pcall(function()
     Service.TextChannels.RBXSystem:DisplaySystemMessage("[ Alchemy Script ] <font color='#ffff00'>Connect to Luarmor</font>")
 end)

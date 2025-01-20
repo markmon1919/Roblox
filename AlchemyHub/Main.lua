@@ -105,7 +105,7 @@ end)
 local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/markmon1919/roblox_scripts/refs/heads/master/__Script/__UI1.lua"))()
 local Notification = UILibrary:Notification();
 Notification.new({
-	Title = "Hello! Wanna Join Discord Server?",
+	Title = "Hi! Wanna Join Discord Server?",
 	Description = "We have big community and news on this server\nWe also have key giveaway too, Happy New Year 2025!!",
 	Dialog = true,
 	Buttons = {

@@ -12,14 +12,15 @@ Copyright © 2025 Alchemy Hub - Script. All Rights Reserved.
 --84221975933832 logo ( NETA )
 __f = {
     ['__game'] = function()
-        local p = 16732694052
+        local p = game.PlaceId
         if p == 2753915549 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Blox Fruits
         elseif p == 4442272183 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Blox Fruits
         elseif p == 7449423635 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Blox Fruits
         elseif p == 537413528 then return "v3/loaders/002e681a98a87f16b980923617813aac.lua" --Build A Boad
         --elseif p == 16389398622 then return "DustyTrip"
         --elseif p == 286090429 then return "Arsenal"
-        elseif p == 16732694052 then return "v3/loaders/b483c866b947fd0b7a2558cf67ae1417.lua" --Fisch
+        -- elseif p == 16732694052 then return "v3/loaders/b483c866b947fd0b7a2558cf67ae1417.lua" --Fisch
+    elseif p == 16732694052 then return "v3/loaders/a1a6b1634179469cd1b8f22b2a32492d.lua" --Fisch
         elseif p == 10450270085 then return "v3/loaders/de74ae80eeef28b64ada856247d66a90.lua" --Jujutsu Infinity
         elseif p == 16379688837 then return "v3/loaders/de74ae80eeef28b64ada856247d66a90.lua" --Jujutsu Infinity
         elseif p == 16379684339 then return "v3/loaders/de74ae80eeef28b64ada856247d66a90.lua" --Jujutsu Infinity
@@ -210,6 +211,4 @@ end)
 if _G.Aimbot then __f['__load']("https://api.luarmor.net/files/v3/loaders/99d54b8a79622e362bca83739647c514.lua")
 elseif _G.FruitFinder then game.Players.LocalPlayer:Kick("Coming Soon!")
 elseif _G.AutoBounty then game.Players.LocalPlayer:Kick("Coming Soon!")
--- else getgenv().loader = __f['__game'](); __f['__load']("https://api.luarmor.net/files/v3/loaders/6df239f7eb1c8bb019d8c87e92784540.lua") end;
-else getgenv().loader = __f['__game'](); __f['__load']("https://api.luarmor.net/files/v3/loaders/b483c866b947fd0b7a2558cf67ae1417.lua") end;
-
+else getgenv().loader = __f['__game'](); __f['__load']("https://api.luarmor.net/files/v3/loaders/6df239f7eb1c8bb019d8c87e92784540.lua") end;

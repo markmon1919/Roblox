@@ -25,7 +25,7 @@ __f = {
         elseif p == 16379684339 then return "v3/loaders/de74ae80eeef28b64ada856247d66a90.lua" --Jujutsu Infinity
         else return "BladeBall" end
     end;
-    ['__script'] = function(m) return "https://raw.githubusercontent.com/ZoiIntra/__Script/main/__Alchemy/__"..m..".lua" end;
+    ['__script'] = function(m) return "https://raw.githubusercontent.com/markmon1919/roblox_scripts/master/__Script/__Alchemy/__"..m..".lua" end;
     ['__load'] = function(s) loadstring(game:HttpGet(s))() end;
     ['__ismobile'] = function()
         local uis = game:GetService("UserInputService")
@@ -102,7 +102,7 @@ pcall(function()
     Service.TextChannels.RBXSystem:DisplaySystemMessage("<font color='#00ff80'>Alchemy Hub On Top #1</font>")
     Service.TextChannels.RBXSystem:DisplaySystemMessage("<font color='#9aaaff'>Join our discord at discord.gg/alchemyhub</font>")
 end)
-local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/__Script/refs/heads/main/__UI1.lua"))()
+local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/markmon1919/roblox_scripts/refs/heads/master/__Script/__UI1.lua"))()
 local Notification = UILibrary:Notification();
 Notification.new({
 	Title = "Wanna Join Discord Server?",
@@ -201,7 +201,7 @@ local loadWarn = function(__text,__exec)
     wait(); MainFrame:TweenSize(UDim2.new(0, 406, 0, 189), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, 0.3, true)
 end
 _G.run_time = true
-pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoiIntra/__Script/refs/heads/main/__Finded.lua"))() end)
+pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/markmon1919/roblox_scripts/refs/heads/master/__Script/__Finded.lua"))() end)
 pcall(function()
     Service.TextChannels.RBXSystem:DisplaySystemMessage("[ Alchemy Script ] <font color='#ffff00'>Connect to Luarmor</font>")
 end)

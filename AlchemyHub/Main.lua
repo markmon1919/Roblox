@@ -106,7 +106,7 @@ local UILibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/mar
 local Notification = UILibrary:Notification();
 Notification.new({
 	Title = "Huy Arison! Gusto Ka Join Discord Server?",
-	Description = "Ayaw nalang pagtoon nalang ug tarong dra!!",
+	Description = "Ayaw nalang pagtoon ug tarong dra!!",
 	Dialog = true,
 	Buttons = {
 		{

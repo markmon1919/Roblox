@@ -110,7 +110,7 @@ Notification.new({
 	Dialog = true,
 	Buttons = {
 		{
-			Title = "Oo!",
+			Title = "Oo sige!",
 			Callback = function()
 				print('discord.gg/alchemyhub')
                 if setclipboard then
